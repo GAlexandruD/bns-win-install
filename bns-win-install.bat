@@ -12,4 +12,8 @@ move %BNS_NAME% %TARGET_DIR%
 :: Add the directory to the PATH
 setx PATH "%PATH%;%TARGET_DIR%"
 
+:: Unset the variables
+set BNS_NAME=
+set TARGET_DIR=
+
 echo Installation complete. Restart your terminal to use the bns tool.
