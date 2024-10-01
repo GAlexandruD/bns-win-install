@@ -17,3 +17,6 @@ set BNS_NAME=
 set TARGET_DIR=
 
 echo Installation complete. Restart your terminal to use the bns tool.
+
+:: Wait for 10 seconds
+timeout /t 10
